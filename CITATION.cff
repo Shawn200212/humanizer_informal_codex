@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Humanizer Informal: bilingual text revision"
+message: "Cite this public overview when discussing the skill or its bounded aggregate evaluations."
+type: software
+version: 1.0.0
+date-released: 2026-09-13
+repository-code: "https://github.com/Shawn200212/humanizer_informal_codex"
+url: "https://github.com/Shawn200212/humanizer_informal_codex"
+authors:
+  - name: "Shawn200212"
+abstract: >-
+  Public overview for a privately maintained bilingual Codex editing skill.
+  Public aggregate evaluations have a bounded scope and do not establish general editing quality.
+keywords:
+  - bilingual editing
+  - text clarity
+  - agent skills
