@@ -1,0 +1,9 @@
+{
+  "checked_on": "2026-11-11",
+  "platform": "codex",
+  "core": "humanizer_informal_codex-core",
+  "behavior_scope": "Bounded synthetic writing checks; no native Claude model or live application certification",
+  "source_sha256": {
+    "humanizer-informal": "44207f735cc1f36f0f62e6db42e2e493e83ec66cc66e25ad6b54e7f240cb1274"
+  }
+}

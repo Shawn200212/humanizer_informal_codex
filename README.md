@@ -1,51 +1,90 @@
-[English](README.md) | [简体中文](README.zh-CN.md)
+# humanizer-informal for Codex
 
-<a id="humanizer-informal"></a>
+[中文说明](README.zh-CN.md)
 
-# Humanizer Informal
+## Purpose / 用途
 
-Clear, naturally paced Chinese and English everyday writing: website content organization,
-project pages, news briefs/broadcast scripts and explanations. Emphasis should make the point
-easier to understand, not turn every paragraph into a slogan or sales pitch.
+**English**
 
-The installable skill and internal evaluations are in the private
-[humanizer_informal_codex-core](https://github.com/Shawn200212/humanizer_informal_codex-core) repository.
-The UI display name is `humanizer_informal`; the validated invocation is `$humanizer-informal`.
+This public repository contains the overview. The private core contains the usable skills.
 
-<a id="scope--适用范围"></a>
-<a id="scope"></a>
-<a id="适用范围"></a>
+**中文**
 
-## Scope
+本公开仓库提供介绍。私有核心仓库提供可使用的技能。
 
-This edition edits wording and information organization. It does not implement a frontend or
-publish the result. Website copy can be personal, an explanation warm, a bulletin direct and a
-maintenance notice calm. The source's facts, qualifications, quotations and intended meaning
-remain important in every register.
+## Capability / 能力
 
-Academic-paper copyediting belongs to
-[Humanizer Formal](https://github.com/Shawn200212/humanizer_formal_codex).
-The two skills do not impose each other's genre conventions.
+**English**
 
-<a id="public-record--公开记录"></a>
-<a id="public-record"></a>
-<a id="公开记录"></a>
+Edit Chinese and English everyday prose for clear meaning, useful emphasis and natural pacing. Preserve facts and the writer's voice.
 
-## Public record
+**中文**
 
-This repository contains overview documentation and bounded aggregate evaluation results only.
-It does not expose skill instructions, helper code, internal cases, private user passages or
-paper corpora. See [the initial evaluation summary](reports/2026-09-13-revision.md).
+中英文日常文本润色。改善表意、重点、节奏和读者理解。
 
-No language model or filler classifier was trained for this edition. Small synthetic tests do
-not establish general reader preference, universal bilingual accuracy or an absence of overfitting.
-The surface checker is not a semantic or clarity evaluator.
+## Repository pair / 双仓
 
-<a id="licensing--许可"></a>
-<a id="licensing"></a>
-<a id="许可"></a>
+**English**
 
-## Licensing
+[Public overview](https://github.com/Shawn200212/humanizer_informal_codex) · [Private core](https://github.com/Shawn200212/humanizer_informal_codex-core)
 
-Prose and private skill source remain all rights reserved; see [LICENSE](LICENSE).
-Aggregate measurements in `data/` are licensed separately under [LICENSE-DATA](LICENSE-DATA).
+**中文**
+
+[公开介绍](https://github.com/Shawn200212/humanizer_informal_codex) · [私有核心](https://github.com/Shawn200212/humanizer_informal_codex-core)
+
+## Installation / 安装
+
+**English**
+
+Clone the private core with an account that has access. Run the included setup preview before installation.
+
+```text
+git clone https://github.com/Shawn200212/humanizer_informal_codex-core.git
+cd humanizer_informal_codex-core
+python install.py
+python install.py --apply
+```
+
+**中文**
+
+使用有权限的账户拉取私有核心仓库。先预览安装，再应用更改。
+
+## Invocation / 调用
+
+**English**
+
+After installation, invoke `$humanizer-informal` in Codex. Read the setup output for unresolved dependencies.
+
+**中文**
+
+安装后，在 Codex 中调用 `$humanizer-informal`。检查安装输出中的未满足依赖。
+
+## Prerequisites / 依赖
+
+**English**
+
+The package includes instructions and required small resources. External applications, project files and paper corpora remain separate prerequisites.
+
+**中文**
+
+包内含技能指令和必要的小型资源。外部应用、项目文件和论文库需要另行准备。
+
+## Verification / 核查
+
+**English**
+
+The release records structural checks, relevant local tests and bounded writing trials. These checks do not certify every workflow or model.
+
+**中文**
+
+本次发布记录结构检查、相关本地测试和有限写作试验。这些检查不能证明全部流程或模型均已通过。
+
+## Limits / 边界
+
+**English**
+
+No acceptance, authorship or universal quality guarantee is made. Live application operations require their own prerequisites and verification.
+
+**中文**
+
+本技能不保证录用、作者身份判断或通用写作质量。实际应用操作需要满足依赖并另行验证。

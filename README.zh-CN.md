@@ -1,45 +1,42 @@
-[English](README.md) | [简体中文](README.zh-CN.md)
+# humanizer-informal：Codex 版
 
-<a id="humanizer-informal"></a>
+[双语说明](README.md)
 
-# Humanizer Informal
+## 用途
 
-用于中英文网站文案、项目介绍、新闻播报和日常内容阐释。
-目标是让读者看懂重点，让语气和节奏跟随内容轻重，而不是把文字写成标语、广告或一串碎短句。
+本公开仓库提供介绍。私有核心仓库提供可使用的技能。
 
-完整 skill 在私有
-[humanizer_informal_codex-core](https://github.com/Shawn200212/humanizer_informal_codex-core)。
-界面显示 `humanizer_informal`，实际入口为 `$humanizer-informal`。
+## 能力
 
-<a id="scope--适用范围"></a>
-<a id="scope"></a>
-<a id="适用范围"></a>
+中英文日常文本润色。改善表意、重点、节奏和读者理解。
 
-## 适用范围
+## 双仓
 
-它负责信息组织和文字润色，不负责前端实现或自动发布。
-网站可以有个人态度，解释可以亲切，新闻必须保留消息来源和不确定性，维护通知则可以平静直接。
-有起伏不等于夸大事实。
+[公开介绍](https://github.com/Shawn200212/humanizer_informal_codex) · [私有核心](https://github.com/Shawn200212/humanizer_informal_codex-core)
 
-学术论文请使用 [Humanizer Formal](https://github.com/Shawn200212/humanizer_formal_codex)。
+## 安装
 
-<a id="public-record--公开记录"></a>
-<a id="public-record"></a>
-<a id="公开记录"></a>
+使用有权限的账户拉取私有核心仓库。先预览安装，再应用更改。
 
-## 公开记录
+```text
+git clone https://github.com/Shawn200212/humanizer_informal_codex-core.git
+cd humanizer_informal_codex-core
+python install.py
+python install.py --apply
+```
 
-公开仓库只提供说明和有限评估摘要，不包含内部规则、脚本、测试原文或用户文稿。
-验证范围见 [初版评估说明](reports/2026-09-13-revision.md)。
-本版没有训练语言模型或分类器；小规模测试也不能证明所有场景都适用，或永远不会过拟合。
-本仓也不公开论文语料。
-小规模合成测试不能证明普遍的读者偏好或所有双语场景的准确性。
-表层检查器不评估语义或表达是否清楚。
+## 调用
 
-<a id="licensing--许可"></a>
-<a id="licensing"></a>
-<a id="许可"></a>
+安装后，在 Codex 中调用 `$humanizer-informal`。检查安装输出中的未满足依赖。
 
-## 许可
+## 依赖
 
-仓库说明文字和私有 Skill 源码保留全部权利，见 [LICENSE](LICENSE)。`data/` 中的聚合测量结果适用 [LICENSE-DATA](LICENSE-DATA) 的单独许可。
+包内含技能指令和必要的小型资源。外部应用、项目文件和论文库需要另行准备。
+
+## 核查
+
+本次发布记录结构检查、相关本地测试和有限写作试验。这些检查不能证明全部流程或模型均已通过。
+
+## 边界
+
+本技能不保证录用、作者身份判断或通用写作质量。实际应用操作需要满足依赖并另行验证。
